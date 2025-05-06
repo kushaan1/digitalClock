@@ -1,0 +1,23 @@
+body{
+  background-image: url("./assets/bgPic.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.clock{
+  color:rgb(21, 20, 20);
+  font-size: 6rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+  text-align: center;
+}
+.clock-cont{
+  width: 100vw;
+  padding: 10px 0;
+}
